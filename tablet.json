@@ -1,0 +1,283 @@
+{
+    "AuthenticationServiceBaseUrl": "https://mobile.gnsvc.com/v1.1/TeeTimesAPIRest.svc",
+    "DeactivationTimeoutSeconds": 300,
+    "GlobalNavRefreshMessage": "No scores currently available",
+    "OfflineMessagingTimeoutSeconds": 2,
+    "PromptUserOnDeactivationTimeout": true,
+    "ScoresDeactivationTimeoutSeconds": 0,
+    "AppVersionInfo": {
+        "CurrentVersion": "3.7",
+        "VersionUpgradeMessage": "There is a new version of the application available in the App Store! Please take a moment to upgrade and get the latest refinements!",
+        "ForcedUpgradeMessage": "There is a new version of the application in the App Store! Please upgrade to continue usage.",
+        "ForceUpgrade": false,
+        "AppStoreUrl": "http://itunes.apple.com/us/app/golf-channel/id466053027?mt=8",
+        "DirectAppStoreUrl": "itms-apps://itunes.apple.com/us/app/golf-channel/id466053027?mt=8",
+        "PrivacyPolicyUrl": "http://www.golfchannel.com/about/privacy-policy/",
+        "TermsOfUseUrl": "http://www.golfchannel.com/about/terms-of-use/"
+    },
+    "ExternalApplication": {
+        "CustomSchemeUrl": "air.com.golfchannel.gcliveextra://data/",
+        "DirectAppStoreUrl": "itms-apps://itunes.apple.com/us/app/golf-live-extra/id586379597?mt=8",
+        "IconImageUrl": "http://www.golfchannel.com/image/gcliveextra-icon.png"
+    },
+    "Advertisement": {
+        "PopupAdsEnabled": true,
+        "PopupNewsAdCooldown": 300,
+        "PopupScoresAdCooldown": 0,
+        "PopupAdCloseButtonPosition": "{25, 25}",
+        "PopupNewsAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_news;site=golf;sect=golfchannel;sub=news;sub2=headlines;sub3=;mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=728x90;pos=2&csit=1",
+        "PopupScoresAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_scores;site=golf;sect=golfchannel;sub=scores;sub3=[eventID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=728x90;pos=2&csit=1",
+        "ChatEngagedStateAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_chat;site=golf;sect=golfchannel;sub=chat;mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=468x60;pos=2&csit=1",
+        "NewsHeaderAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_loading;site=golf;sect=golfchannel;sub=loading;mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=120x60;pos=1&csit=1",
+        "PhotoGalleryEngagedStateAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_photos;site=golf;sect=golfchannel;sub=photos;sub3=[groupID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=468x60;pos=2&csit=1",
+        "PlayerSponsorshipLogoUrlOverride": "http://dontshowanylogos.com",
+        "ScorecardAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_scores;site=golf;sect=golfchannel;sub=scores;sub2=player;sub3=[playerID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=728x90;pos=2&csit=1",
+        "ScoresHeaderAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_scores;site=golf;sect=golfchannel;sub=scores;sub3=[eventID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=120x60;pos=1&csit=1",
+        "StartupAdvertisement": {
+            "source": "http://images.thegolfchannel.com/images/element/473856.png",
+            "loadTimeout": 3,
+            "displayTime": 3,
+            "activationCount": 5,
+            "enabled": false,
+            "portraitAdRect": "{{294, 616}, {180, 150}}",
+            "alternatePortraitAdRect": "{{294, 616}, {180, 150}}",
+            "landscapeAdRect": "{{422, 498}, {180, 150}}",
+            "alternateLandscapeAdRect": "{{422, 498}, {180, 150}}",
+            "DARTTrack": [
+              {
+                "source": "http://ad.doubleclick.net/ad/mo.golfchan.app/sponsor_golfchannelapp_logo_ipad;site=golf;app=golfchannel;sponsor=logo;type=ipad;sz=1x1;ord=[rand:12]?"
+              }
+            ]
+        }
+    },
+    "LiveMedia": {
+        "IsEnabled": true,
+        "ScheduleCheckInterval": 5,
+        "ScheduleRefreshInterval": 300,
+        "AudioConfigurationUrl": "http://www.golfchannel.com/rss/?feedid=audioconfig&atom=1",
+        "AudioAvailableTitle": "Live Audio",
+        "AudioUnavailableTitle": "Upcoming Live Audio",
+        "VideoScheduleUrlTemplate": "http://www.golfchannel.com/rss/?feedId=onair&amp;startDate={0}&amp;endDate={1}",
+        "VideoTitle": "Live Video",
+        "UpcomingLabel": "UPCOMING"
+    },
+    "Feedback": {
+        "EmailBodyTemplate": "From Golf Channel:<br/><br/>{0}<br/><br/>{1}<br/><br/>Sent from the Golf Channel {3} application. Download it for free at the <a href='{2}' >App Store</a>!",
+        "EmailSubjectTemplate": "{0}: {1}",
+        "RatingActivationCount": 5,
+        "RatingUrl": "itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=466053027",
+        "SupportEmailAddress": "mobilefeedback@golfchannel.com",
+        "SupportEmailBodyTemplate": "Hello,<br/><br/>I have some feedback on the Golf Channel App:<br/><br/><br/>Thanks,<br/><br/>--------------------------------------------------<br/>I'm using Golf Channel App version {0} on an {1} running OS {2}.",
+        "SupportEmailSubjectTemplate": "Feedback on the Golf Channel App",
+        "TwitterLinkSharingFormat": "Golf Channel - {title}: {name}",
+        "FacebookLinkSharingFormat": "Golf Channel - {title}: {name}",
+        "CommentAuthenticationUrlRequestPattern": [
+            {
+                "Value": "http://login/"
+            },
+            {
+                "Value": "^http://www.golfchannel.com/login"
+            },
+            {
+                "Value": "^http://disqus.com/_ax"
+            },
+            {
+                "Value": "^https://disqus.com/next/login/"
+            },
+            {
+                "Value": "^http://disqus.com/logout"
+            },
+            {
+                "Value": "^http://www.golfchannel.com/Logout"
+            }
+        ]
+    },
+    "Omniture": {
+        "account": "cgsgolfmobileappdev",
+        "debugTracking": false,
+        "trackingServer": "cypressgolfsolutions.112.2o7.net",
+        "appName": "Golf Channel App",
+        "platform": "iPad"
+    },
+    "Video": {
+        "VideoTokenServiceUrlTemplate": "http://images.thegolfchannel.com/kiptronictokenizer.aspx?videourl={0}",
+        "VideoUrlTemplate": "{0}?type=ipad&app=golfchannel&cont={1}",
+    "FreewheelNetworkId": 0,
+    "FreewheelServerUrl": "",
+    "FreewheelPlayerProfile": "",
+        "FreewheelSiteSection": "",
+        "FreewheelRequestAssetDuration": 360
+    },
+    "BreakingNewsRibbon": {
+        "Url": "",
+        "PollingFrequencyInSeconds": 60,
+        "FontSize": 13,
+        "FontColor": "#FFFFFF,1",
+        "BackgroundColorLeft": "#BC2D1D,1",
+        "BackgroundColorRight": "#BC2D1D,1",
+        "Height": 50
+    },
+    "BreakingNewsFeed": {
+        "Title": "Breaking News",
+        "AccentColor": "#BC2D1D",
+        "VideoAdIdentifier": "breakingnews",
+        "Sponsor": {
+            "HeaderAdTagTemplate": "",
+            "ArticleAdTagTemplate": ""
+        }
+    },
+    "NewsMode": {
+        "CheckForDuplicateFeedItems": true,
+        "CommentProviderURLTemplate": "http://www.thegolfchannel.com/components/tgc-webservices/mobileapp/disqusthread.aspx?threadid={threadId}&userid={userId}&username={userName}&email={userEmail}&i={i}&url={url}",
+        "DefaultFeedItemCount": 9,
+        "EnableHtmlFallBackForComments": false,
+        "FeedItemCommentIndicatorThreshold": 20,
+        "HideOldFeedItemOnSwipe": false,
+        "MoreFeedItemsCount": 9,
+        "MoreFeedItemsThreshold": 120,
+        "TimestampUpdateFrequencySeconds": 60,
+        "Feeds": [
+            {
+                "Id": 1,
+                "BlogId": "15932921",
+                "Title": "GolfTalkCentral",
+                "Order": 1,
+                "AccentColor": "#00457B",
+                "FeedUrl": "http://www.golfchannel.com/rss/?feedId=mobile&name=golftalkcentral&startIndex={startindex}&endIndex={endindex}&atom=1",
+                "DefaultThumbnail": "http://images.thegolfchannel.com/images/element/472172.jpg",
+                "VideoAdIdentifier": "golftalkcentral",
+                "Sponsor": {
+                    "HeaderAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_news;site=golf;sect=golfchannel;sub=news;sub2=golftalk;sub3=[articleID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=120x60;pos=1&csit=1",
+                    "ArticleAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_news;site=golf;sect=golfchannel;sub=news;sub2=golftalk;sub3=[articleID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=468x60;pos=2&csit=1"
+                }
+            },
+            {
+                "Id": 2,
+                "BlogId": "15932921",
+                "Title": "Opinion & Analysis",
+                "Order": 2,
+                "AccentColor": "#00457B",
+                "FeedUrl": "http://www.golfchannel.com/rss/?feedId=mobile&name=OpinionAndAnalysis&startIndex={startindex}&endIndex={endindex}&atom=1",
+                "DefaultThumbnail": "http://images.thegolfchannel.com/images/element/472172.jpg",
+                "VideoAdIdentifier": "OpinionAndAnalysis",
+                "Sponsor": {
+                    "HeaderAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_news;site=golf;sect=golfchannel;sub=news;sub2=analysis;sub3=[articleID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=120x60;pos=1&csit=1",
+                    "ArticleAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_news;site=golf;sect=golfchannel;sub=news;sub2=analysis;sub3=[articleID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=468x60;pos=2&csit=1"
+                }
+            },
+            {
+                "Id": 3,
+                "BlogId": "15932921",
+                "Title": "News & Originals Video",
+                "Order": 3,
+                "AccentColor": "#00457B",
+                "FeedUrl": "http://www.golfchannel.com/rss/?feedId=mobile&name=Video&startIndex={startindex}&endIndex={endindex}&atom=1",
+                "DefaultThumbnail": "http://images.thegolfchannel.com/images/element/472172.jpg",
+                "VideoAdIdentifier": "Video",
+                "Sponsor": {
+                    "HeaderAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_video;site=golf;sect=golfchannel;sub=video;sub2=short;sub3=[clipID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=120x60;pos=1&csit=1",
+                    "ArticleAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_video;site=golf;sect=golfchannel;sub=video;sub2=short;sub3=[clipID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=468x60;pos=2&csit=1"
+                }
+            },
+            {
+                "Id": 4,
+                "BlogId": "15932921",
+                "Title": "Instruction Video",
+                "Order": 4,
+                "AccentColor": "#00457B",
+                "FeedUrl": "http://www.golfchannel.com/rss/?feedId=mobile&name=InstructionalVideo&startIndex={startindex}&endIndex={endindex}&atom=1",
+                "DefaultThumbnail": "http://images.thegolfchannel.com/images/element/472172.jpg",
+                "VideoAdIdentifier": "InstructionalVideo",
+                "Sponsor": {
+                    "HeaderAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_video;site=golf;sect=golfchannel;sub=video;sub2=short;sub3=[clipID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=120x60;pos=1&csit=1",
+                    "ArticleAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_video;site=golf;sect=golfchannel;sub=video;sub2=short;sub3=[clipID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=468x60;pos=2&csit=1"
+                }
+            },
+            {
+                "Id": 5,
+                "BlogId": "15932921",
+                "Title": "Photo Galleries",
+                "Order": 5,
+                "AccentColor": "#00457B",
+                "FeedUrl": "http://www.golfchannel.com/rss/?feedId=mobile&name=PhotoGallery&startIndex={startindex}&endIndex={endindex}&atom=1",
+                "DefaultThumbnail": "http://images.thegolfchannel.com/images/element/472172.jpg",
+                "VideoAdIdentifier": "PhotoGallery",
+                "Sponsor": {
+                    "HeaderAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_photos;site=golf;sect=golfchannel;sub=photos;sub3=[groupID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=120x60;pos=1&csit=1",
+                    "ArticleAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_photos;site=golf;sect=golfchannel;sub=photos;sub3=[groupID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=468x60;pos=2&csit=1"
+                }
+            },
+            {
+                "Id": 6,
+                "BlogId": "15932921",
+                "Title": "TV Blogs",
+                "Order": 6,
+                "AccentColor": "#00457B",
+                "FeedUrl": "http://www.golfchannel.com/rss/?feedId=mobile&name=TVShows&startIndex={startindex}&endIndex={endindex}&atom=1",
+                "DefaultThumbnail": "http://images.thegolfchannel.com/images/element/472172.jpg",
+                "VideoAdIdentifier": "TVShows",
+                "Sponsor": {
+                    "HeaderAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_news;site=golf;sect=golfchannel;sub=news;sub2=tvblogs;sub3=[articleID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=120x60;pos=1&csit=1",
+                    "ArticleAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_news;site=golf;sect=golfchannel;sub=news;sub2=tvblogs;sub3=[articleID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=468x60;pos=2&csit=1"
+                }
+            },
+            {
+                "Id": 7,
+                "BlogId": "15932921",
+                "Title": "Fantasy Central",
+                "Order": 7,
+                "AccentColor": "#00457B",
+                "FeedUrl": "http://www.golfchannel.com/rss/?feedId=mobile&name=FantasyCentral&startIndex={startindex}&endIndex={endindex}&atom=1",
+                "DefaultThumbnail": "http://images.thegolfchannel.com/images/element/472172.jpg",
+                "VideoAdIdentifier": "FantasyCentral",
+                "Sponsor": {
+                    "HeaderAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_news;site=golf;sect=golfchannel;sub=news;sub2=fantasy;sub3=[articleID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=120x60;pos=1&csit=1",
+                    "ArticleAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_news;site=golf;sect=golfchannel;sub=news;sub2=fantasy;sub3=[articleID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=468x60;pos=2&csit=1"
+                }
+            },
+            {
+                "Id": 8,
+                "BlogId": "15932921",
+                "Title": "Equipment Insider",
+                "Order": 8,
+                "AccentColor": "#00457B",
+                "FeedUrl": "http://www.golfchannel.com/rss/?feedId=mobile&name=EquipmentInsider&startIndex={startindex}&endIndex={endindex}&atom=1",
+                "DefaultThumbnail": "http://images.thegolfchannel.com/images/element/472172.jpg",
+                "VideoAdIdentifier": "EquipmentInsider",
+                "Sponsor": {
+                    "HeaderAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_news;site=golf;sect=golfchannel;sub=news;sub2=equipment;sub3=[articleID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=120x60;pos=1&csit=1",
+                    "ArticleAdTagTemplate": "http://ad.mo.doubleclick.net/DARTProxy/mobile.handler?k=mo.golfchan.app/golfchannel_news;site=golf;sect=golfchannel;sub=news;sub2=equipment;sub3=[articleID];mdeck=1;type=ipad;!c=app;!c=ipad;!c=golf;!c=golfchannel;size=468x60;pos=2&csit=1"
+                }
+            }
+        ]
+    },
+    "ScoreboardMode": {
+        "PlayerScorecardMissingThumbnailUrl": "http://www.golfchannel.com/Components/Design/img/leaderboard/player_default_thumb.jpg",
+        "ScoreboardEventIdentifierRegex": "\\D+",
+        "ScoreboardUpdateIntervalSeconds": 120,
+        "TourInfoFeed": "http://www.golfchannel.com/rss/?feedId=briefscores&full=true",
+        "EnableAirTimeSchedule": true,
+        "AirTimeTVScheduleUrl": "http://www.golfchannel.com/components/tgc-webservices/mobileapp/tournamentairtimes.aspx?event={eventId}&type=ios"
+    },
+    "PushNotificationPreferences": {
+        "feedItemUrlTemplate": "http://www.golfchannel.com/rss/?feedid=mobile&name=ItemLink&Type={feedItemType}&atom=1&Key={feedItemId}",
+        "scoreboardUrlTemplate": "http://www.golfchannel.com/rss/?feedId={eventType}&{eventIdKey}={eventId}",
+        "type": "group",
+        "label": "Notification",
+        "groups":
+        [
+            {
+                "type": "groupitem",
+                "label": "",
+                "items":
+                [
+                    {
+                        "type": "item",
+                        "label": "Breaking News",
+                        "tag": "Breaking-News"
+                    }
+                ]
+            }
+        ]
+    }
+}
